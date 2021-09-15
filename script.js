@@ -288,8 +288,8 @@ function incrementOrDecrement(num1) {
 // Create a function that takes two arguments and returns the smaller number.
 // Numbers will be represented as strings, and your output should also be a string.
 
-// toString("21", "100") ➞ "21"
-// toString("200", "80") ➞ "80"
+// transformToString("21", "100") ➞ "21"
+// transformToString("200", "80") ➞ "80"
 
 function transformToString(num1, num2) {
     return

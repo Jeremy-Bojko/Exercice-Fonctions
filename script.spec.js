@@ -246,11 +246,12 @@ describe('Function incrementOrDecrement', () => {
     })
 })
 
+
 describe('Function transformToString', () => {
     test('test transformToString 1', () => {
-        expect(transformToString()).toBe()
+        expect(transformToString("23", "105")).toBe("23")
     })
     test('test transformToString 2', () => {
-        expect(transformToString()).toBe()
+        expect(transformToString("3200", "83")).toBe("83")
     })
 })
