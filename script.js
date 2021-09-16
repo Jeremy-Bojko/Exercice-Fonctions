@@ -214,10 +214,10 @@ function isEvenOrOdd(num) {
 // Exercice:
 
 // Write a function that validates whether two strings are identical. Make it case insensitive.
-// match(“HELLO WORLD”) and (”hello world”) → true
+// match(“HELLO WORLD”,”hello world”) → true
 // match("mask", "mAskinG") ➞ false
 
-function match(str) {
+function match(str1, str2 ) {
     return
 }
 
