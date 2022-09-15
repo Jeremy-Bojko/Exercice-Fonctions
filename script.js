@@ -1,123 +1,107 @@
-// Exercices 
-
+// Exercices
 
 /*
 | Arguments : 2 nombres
 | Retour    : Somme des 2 nombres
 */
 
-function Somme(n1,n2){  
-    return  
+function Somme(n1, n2) {
+  return;
 }
-console.log(Somme(7,15))
-
+console.log(Somme(7, 15));
 
 /*
 | Argument  : Base et hauteur d'un triangle 
 | Retour    : L'aire du triangle
 */
-function TriangleArea(B,H){
-    return 
+function TriangleArea(B, H) {
+  return;
 }
-console.log(TriangleArea(10,12))
 
 /*
 | Argument  : Hauteur et largeur d'un rectangle 
 | Retour    : Périmètre du rectangle
 */
-function RectanglePerimetre(W,H){
-    return 
+function RectanglePerimetre(W, H) {
+  return;
 }
-console.log(RectanglePerimetre(6,6))
-
 
 /*
 | Argument  : Un nombre 
 | Retour    : Ce nombre élevé au carré
 */
-function SquareNumber(n){
-    return 
+function SquareNumber(n) {
+  return;
 }
-console.log(SquareNumber(9))
 
 /*
 | Argument  : 2 nombres le premier est divisé par le second
 | Retour    : Le reste de la division
 */
-function Rest(N ,n ){
-    return 
+function Rest(N, n) {
+  return;
 }
-
-console.log(Rest(450,55))
 
 /*
 | Argument  : Un nombre d'heure
 | Retour    : Conversion en secondes
 */
-function HourToSecond(H){
-    return 
+function HourToSecond(H) {
+  return;
 }
-console.log(HourToSecond(24))
 
 /*
 | Argument  : 2 nombres, le 1er en heures, le second en minutes
 | Retour    : Conversion en secondes
 */
-function ConvertToSecond(H , M){
-    return 
+function ConvertToSecond(H, M) {
+  return;
 }
-console.log(ConvertToSecond(24,15))
 
 /*
-| Argument  : Un nom 
-| Retour    : Dis bonjour à l'utilisateur si le nom est Joseph la fonction retourne : Bonjour Joseph !
+| Argument  : Le nom (string) de l'utilisateur 
+| Retour    : Dis bonjour à l'utilisateur en prenant son nom personnalisable en argument 
+| Exemple   : Si le nom de l'utilisateur est Joseph la fonction retourne : Bonjour Joseph !
+| Exemple2  : Si le nom de l'utilisateur est Jacqueline la fonction retourne : Bonjour Jacqueline !
 */
-function Greeting(name){
-    return 
+function Greeting(name) {
+  return;
 }
-console.log(Greeting("Joseph"))
-
 
 /*
 | Argument  : Une string
 | Retour    : La longueur de la string
 */
-function LengthOfString(str){
-    return 
+function LengthOfString(str) {
+  return;
 }
-console.log(LengthOfString("Bonjour Simplonien"))
 
 /*
 | Argument  : Une string contenant un nombre 
 | Retour    : Conversion en nombre
 */
-function StringToNumber(str){
-    return 
+function StringToNumber(str) {
+  return;
 }
-console.log(StringToNumber("200"))
-
 
 /*
 | Argument  : Un nombre
 | Retour    : Conversion en string
 */
-function NumberToString(number){
-    return 
+function NumberToString(number) {
+  return;
 }
-console.log(NumberToString(200))
-
 
 //------- Exercice avancés
 
-
 // Exercice
 // Create a function that takes two numbers,and returns true if the sum of both numbers is less than 100. Otherwise return false.
-// sumOfNumbers(10,20)➞ true
+// sumIsLessThan100(10,20)➞ true
 // 10+20=40<100
-// sumOfNumbers(90,20)➞ false
+// sumIsLessThan100(90,20)➞ false
 
-function sumOfNumbers(num1,num2) {
-    return
+function sumIsLessThan100(num1, num2) {
+  return;
 }
 
 // Exercice
@@ -126,18 +110,17 @@ function sumOfNumbers(num1,num2) {
 // isEqual(1,7)➞false
 // isEqual(100,100)➞true
 
-function isEqual(num1,num2) {
-    return
+function isEqual(num1, num2) {
+  return;
 }
-
 
 // Exercice:
 
 // Create a function that takes in three arguments (a, b, c) and returns true if the product of a and b is more than c; otherwise return false.
 // ifOneIsSum(2,2,3)➞ true
 // ifOneIsSum(0,2,5)➞ false
-function ifOneIsProduct(num1,num2,num3) {
-    return
+function ifOneIsProduct(num1, num2, num3) {
+  return;
 }
 
 // Exercice:
@@ -148,7 +131,7 @@ function ifOneIsProduct(num1,num2,num3) {
 // isEmpty(“Chaima”)➞ false
 
 function isEmpty(str) {
-    return
+  return;
 }
 
 // Exercice:
@@ -158,9 +141,8 @@ function isEmpty(str) {
 // isEqualZero (0)➞ true
 // isEqualZero (-52)➞ true
 function isEqualZero(num) {
-    return
+  return;
 }
-
 
 // Exercice:
 
@@ -168,7 +150,7 @@ function isEqualZero(num) {
 // isDevisible (500)➞ true
 // isDevisible (2)➞ false
 function isDevisible(num) {
-    return
+  return;
 }
 
 // Exercice:
@@ -178,7 +160,7 @@ function isDevisible(num) {
 // isEqualStr (“CA”,”FS”)➞ true
 
 function isEqualStr(str1, str2) {
-    return
+  return;
 }
 
 // Exercice:
@@ -188,8 +170,8 @@ function isEqualStr(str1, str2) {
 // oneDevideByTwo(10,2)➞true
 // oneDevideByTwo(13,2)➞false
 
-function isDevideBy(num1,  num2)   { 
-    return 
+function isDevideBy(num1, num2) {
+  return;
 }
 
 // Exercice:
@@ -197,8 +179,8 @@ function isDevideBy(num1,  num2)   {
 // Create a function that takes in a mood and return a sentence in the following format: "Today, I am feeling {mood}". However, if no argument is passed, return "Today, I am feeling neuter".
 // moodToday("happy") ➞ "Today, I am feeling happy"
 // moodToday( ) ➞ "Today, I am feeling neuter"
-function moodToday(mood) { 
-    return 
+function moodToday(mood) {
+  return;
 }
 
 // Exercice:
@@ -207,8 +189,8 @@ function moodToday(mood) {
 // isEvenOrOdd(3) ➞ "odd"
 // isEvenOrOdd(146) ➞ "even"
 // isEvenOrOdd(19) ➞ "odd"
-function isEvenOrOdd(num) { 
-    return 
+function isEvenOrOdd(num) {
+  return;
 }
 
 // Exercice:
@@ -217,8 +199,8 @@ function isEvenOrOdd(num) {
 // match(“HELLO WORLD”,”hello world”) → true
 // match("mask", "mAskinG") ➞ false
 
-function match(str1, str2 ) {
-    return
+function match(str1, str2) {
+  return;
 }
 
 // Exercice:
@@ -228,9 +210,8 @@ function match(str1, str2 ) {
 // getCase("SHOUT!") ➞ "upper"
 
 function getCase(str) {
-    return
+  return;
 }
-
 
 // Exercice:
 
@@ -238,7 +219,7 @@ function getCase(str) {
 // swapName("Ada Lovelace") ➞ "Lovelace Ada"
 // swapName(“Alan Turing”)➞  “Turing Alan”
 function swappName(NameLastName) {
-    return
+  return;
 }
 
 // Exercice:
@@ -247,7 +228,7 @@ function swappName(NameLastName) {
 // AlphabetSoup("javascript") ➞ "aacijprstv"
 // AlphabetSoup(“simplon”) ➞”ilmnops”
 function AlphabetSoup(str) {
-    return
+  return;
 }
 
 // Exercice:
@@ -258,7 +239,7 @@ function AlphabetSoup(str) {
 // onlyCase("SimpLoN") ➞ false
 
 function onlyCase(str) {
-    return
+  return;
 }
 
 // Exercice:
@@ -267,10 +248,9 @@ function onlyCase(str) {
 // checkEnding("abc", "bc") ➞ true
 // checkEnding("simplonien", "zi") ➞ false
 
-function checkEnding(str1,  str2) {
-    return
+function checkEnding(str1, str2) {
+  return;
 }
-
 
 // Exercice:
 
@@ -279,9 +259,8 @@ function checkEnding(str1,  str2) {
 // incrementOrDecrement(2) ➞3
 
 function incrementOrDecrement(num1) {
-    return
+  return;
 }
-
 
 // Exercice
 
@@ -292,37 +271,37 @@ function incrementOrDecrement(num1) {
 // transformToString("200", "80") ➞ "80"
 
 function transformToString(num1, num2) {
-    return
+  return;
 }
 
 module.exports = {
-    Somme,
-    TriangleArea,
-    RectanglePerimetre,
-    SquareNumber,
-    Rest,
-    HourToSecond,
-    ConvertToSecond,
-    Greeting,
-    LengthOfString,
-    StringToNumber,
-    NumberToString,
-    sumOfNumbers,
-    isEqual,
-    ifOneIsProduct,
-    isEmpty,
-    isEqualZero,
-    isDevisible,
-    isEqualStr,
-    isDevideBy,
-    moodToday,
-    isEvenOrOdd,
-    match,
-    getCase,
-    swappName,
-    AlphabetSoup,
-    onlyCase,
-    checkEnding,
-    incrementOrDecrement,
-    transformToString
-}
+  Somme,
+  TriangleArea,
+  RectanglePerimetre,
+  SquareNumber,
+  Rest,
+  HourToSecond,
+  ConvertToSecond,
+  Greeting,
+  LengthOfString,
+  StringToNumber,
+  NumberToString,
+  sumIsLessThan100,
+  isEqual,
+  ifOneIsProduct,
+  isEmpty,
+  isEqualZero,
+  isDevisible,
+  isEqualStr,
+  isDevideBy,
+  moodToday,
+  isEvenOrOdd,
+  match,
+  getCase,
+  swappName,
+  AlphabetSoup,
+  onlyCase,
+  checkEnding,
+  incrementOrDecrement,
+  transformToString,
+};
