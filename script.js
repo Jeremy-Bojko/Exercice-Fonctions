@@ -97,7 +97,7 @@ function NumberToString(number) {
 // Exercice
 // Create a function that takes two numbers,and returns true if the sum of both numbers is less than 100. Otherwise return false.
 // sumIsLessThan100(10,20)➞ true
-// 10+20=40<100
+// 10+20=30<100
 // sumIsLessThan100(90,20)➞ false
 
 function sumIsLessThan100(num1, num2) {
